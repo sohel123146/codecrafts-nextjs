@@ -10,7 +10,7 @@ const page = () => {
           <div className="flex flex-wrap -m-2">
             <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
-                <Image alt="ecommerce" className='bg-gray-200 rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
+                <Image alt="ecommerce" className='bg-gray-200 rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/813o6C7QH2L._SX679_.jpg" width={600} height={600}/>
               </Link>
               <div className="mt-4 text-center">
                 <h3 className="text-gray-700 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -21,7 +21,7 @@ const page = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
-                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
+                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/813o6C7QH2L._SX679_.jpg" width={600} height={600}/>
               </Link>
               <div className="mt-4 text-center">
                 <h3 className="text-gray-700 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -32,7 +32,7 @@ const page = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
-                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
+                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/813o6C7QH2L._SX679_.jpg" width={600} height={600}/>
               </Link>
               <div className="mt-4 text-center">
                 <h3 className="text-gray-700 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -43,7 +43,7 @@ const page = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
-                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
+                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/813o6C7QH2L._SX679_.jpg" width={600} height={600}/>
               </Link>
               <div className="mt-4 text-center">
                 <h3 className="text-gray-700 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -54,7 +54,7 @@ const page = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
-                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
+                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/813o6C7QH2L._SX679_.jpg" width={600} height={600}/>
               </Link>
               <div className="mt-4 text-center">
                 <h3 className="text-gray-700 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -65,7 +65,7 @@ const page = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
-                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
+                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/813o6C7QH2L._SX679_.jpg" width={600} height={600}/>
               </Link>
               <div className="mt-4 text-center">
                 <h3 className="text-gray-700 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -76,7 +76,7 @@ const page = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
-                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
+                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/813o6C7QH2L._SX679_.jpg" width={600} height={600}/>
               </Link>
               <div className="mt-4 text-center">
                 <h3 className="text-gray-700 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -87,7 +87,7 @@ const page = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
-                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
+                <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/813o6C7QH2L._SX679_.jpg" width={600} height={600}/>
               </Link>
               <div className="mt-4 text-center">
                 <h3 className="text-gray-700 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
