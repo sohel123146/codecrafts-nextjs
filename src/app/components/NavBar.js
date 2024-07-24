@@ -8,6 +8,7 @@ import { IoIosCloseCircle } from "react-icons/io";
 import { FaPlusCircle, FaMinusCircle } from "react-icons/fa";
 import { IoBagCheck } from "react-icons/io5";
 import { useRef } from 'react';
+
 const NavBar = () => {
 
   const togglecart = () =>{
@@ -37,7 +38,7 @@ const NavBar = () => {
           <Link href={"/mugs"}><li>Mugs</li></Link>
         </ul>
       </div>
-      <div onClick={togglecart} className="cart absolute md:mr-8 top-8 right-7 md:top-10 cursor-pointer text-9xl md:text-2xl">
+      <div onClick={togglecart} className="cart absolute md:mr-8 top-8 right-7 md:top-10 cursor-pointer text-3xl md:text-2xl">
         <CiShoppingCart />
       </div>
 
@@ -82,9 +83,14 @@ const NavBar = () => {
             </div>
           </li>
         </ol>
-        <button className="flex items-center mt-6 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-        <IoBagCheck className='mr-2'/>Checkout
-        </button>
+        <div className='flex'>
+          <button className="flex mr-2 items-center mt-2 text-white bg-indigo-500 border-0 py-3 px-3 focus:outline-none hover:bg-indigo-600 rounded text-sm">
+          <IoBagCheck className='mr-2'/>Checkout
+          </button>
+          <button className="flex ml-2 items-center mt-2 text-white bg-indigo-500 border-0 py-3 px-3 focus:outline-none hover:bg-indigo-600 rounded text-sm">
+          Clear Cart
+          </button>
+        </div>
       </div>
     </div>
   )
