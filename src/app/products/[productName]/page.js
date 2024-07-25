@@ -1,10 +1,20 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import cartContext from "../../context/cart/cartContext";
 
-const page = ({ params }) => {
+const page = ({params}) => {
+
   const [pin, setPin] = useState();
+
   const [service, setService] = useState();
+
+  const context = useContext(cartContext)
+
+  const {addToCart} = context
+
+  // console.log(context)
 
   const checkServiceAvailability = async () => {
     const response = await fetch("http://localhost:3000/api/pincode");
@@ -33,11 +43,12 @@ const page = ({ params }) => {
               height={600}
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <div className="mb-2 text-sm"><Link href={'/'}>Home</Link>/<Link href={'/tshirts'}>Tshirts</Link></div>
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 CODECRAFTS
               </h2>
               <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-                codecrafts({params.productId})T-Shirt(XL/Blue)
+                codecrafts({params.productName})T-Shirt(XL/Blue)
               </h1>
               <div className="flex mb-4">
                 <span className="flex items-center">
@@ -184,7 +195,7 @@ const page = ({ params }) => {
                 <button className="flex ml-7 text-sm text-white bg-indigo-500 border-0 py-2 px-2 md:px-6 focus:outline-none hover:bg-indigo-600 rounded">
                   Buy Now
                 </button>
-                <button className="flex ml-4 text-sm text-white bg-indigo-500 border-0 py-2 px-2 md:px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                <button onClick={()=>addToCart(params.productName,1, 499, "Wear the Code(XL,Blue)", "XL", "Blue")} className="flex ml-4 text-sm text-white bg-indigo-500 border-0 py-2 px-2 md:px-6 focus:outline-none hover:bg-indigo-600 rounded">
                   Add to Cart
                 </button>
                 <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">

@@ -7,8 +7,8 @@ const page = () => {
     <div className="contianer m-9">
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-10 md:py-15 mx-auto">
-          <div className="flex flex-wrap -m-2">
-            <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
+          <div className="flex flex-wrap -m-4 justify-center">
+            <div className="lg:w-1/5 md:w-1/2 md:m-5 my-4 m-4 w-1/3 p-2 shadow-lg rounded-lg border border-1"> 
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
                 <Image alt="ecommerce" className='bg-gray-200 rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
               </Link>
@@ -19,7 +19,7 @@ const page = () => {
                 <p className='mt-1'>S ,M ,L ,XL ,XXL</p>
               </div>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
+            <div className="lg:w-1/5 md:w-1/2 md:m-5 my-4 m-4 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
                 <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
               </Link>
@@ -30,7 +30,7 @@ const page = () => {
                 <p className="mt-1">S ,M ,L ,XL ,XXL</p>
               </div>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
+            <div className="lg:w-1/5 md:w-1/2 md:m-5 my-4 m-4 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
                 <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
               </Link>
@@ -41,7 +41,7 @@ const page = () => {
                 <p className="mt-1">S ,M ,L ,XL ,XXL</p>
               </div>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
+            <div className="lg:w-1/5 md:w-1/2 md:m-5 my-4 m-4 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
                 <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
               </Link>
@@ -52,7 +52,7 @@ const page = () => {
                 <p className="mt-1">S ,M ,L ,XL ,XXL</p>
               </div>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
+            <div className="lg:w-1/5 md:w-1/2 md:m-5 my-4 m-4 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
                 <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
               </Link>
@@ -63,7 +63,7 @@ const page = () => {
                 <p className="mt-1">S ,M ,L ,XL ,XXL</p>
               </div>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
+            <div className="lg:w-1/5 md:w-1/2 md:m-5 my-4 m-4 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
                 <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
               </Link>
@@ -74,7 +74,7 @@ const page = () => {
                 <p className="mt-1">S ,M ,L ,XL ,XXL</p>
               </div>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
+            <div className="lg:w-1/5 md:w-1/2 md:m-5 my-4 m-4 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
                 <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
               </Link>
@@ -85,7 +85,7 @@ const page = () => {
                 <p className="mt-1">S ,M ,L ,XL ,XXL</p>
               </div>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 my-4 m-8 w-full p-2 shadow-lg rounded-lg">
+            <div className="lg:w-1/5 md:w-1/2 md:m-5 my-4 m-4 w-full p-2 shadow-lg rounded-lg">
               <Link href={"/products/wear-the-code"} className="block relative rounded overflow-hidden">
                 <Image alt="ecommerce" className='rounded-2xl object-cover object-center w-7/12 md:w-11/12 h-full block m-auto' src="https://m.media-amazon.com/images/I/61UE51azLWL._SY879_.jpg" width={600} height={600}/>
               </Link>
