@@ -2,16 +2,18 @@
 import React, { useContext } from "react";
 import { IoBagCheck } from "react-icons/io5";
 import { FaPlusCircle, FaMinusCircle } from "react-icons/fa";
-import cartContextt from "../context/cart/cartContext";
+import cartContext from "../context/cart/cartContext";
+import Link from "next/link";
 
 const page = () => {
-  const context = useContext(cartContextt);
+  const context = useContext(cartContext);
   const { cart, addToCart, removeFromCart, subTotal } = context;
 
   return (
     <div className="container m-auto font-bold">
       <h1 className="text-center m-2">CheckOut</h1>
-      <div className="mx-auto flex my-4">
+        <div className=" w-full mx-2 p-2">Delivery Details</div>
+      <div className="mx-auto flex my-2">
         <div className="p-2 w-1/2">
           <div className="mb-2">
             <label htmlFor="name" className="leading-7 text-sm">
@@ -107,6 +109,7 @@ const page = () => {
           </div>
         </div>
       </div>
+      <div className="my-2">Review Cart Items & pay</div>
       <div className="w-full sidecart bg-gray-200 p-8 my-4 rounded-2xl">
         <ol className="list-decimal flex flex-col">
           {Object.keys(cart).length === 0 && (
@@ -136,7 +139,7 @@ const page = () => {
                       }
                       className="mx-2 cursor-pointer"
                     />
-                    {cart[k].qty}
+                    {cart[k].qty}   {/*1*/}
                     <FaPlusCircle
                       onClick={() =>
                         addToCart(
@@ -156,12 +159,13 @@ const page = () => {
             );
           })}
         </ol>
-        <div className="total">SubTotal:₹{subTotal}</div>
       </div>
       <div className="m-2 text-sm">
-      <button className="flex mr-2 items-center mt-2 text-white bg-indigo-500 border-0 py-3 px-3 focus:outline-none hover:bg-indigo-600 rounded text-sm">
-      <IoBagCheck className='mr-2'/>Pay ₹{subTotal}
-      </button>
+      <div className="total">SubTotal:₹{subTotal}</div>
+      <Link href={'/orders'}><button className="flex mr-2 items-center mt-2 text-white bg-indigo-500 border-0 py-3 px-3 focus:outline-none hover:bg-indigo-600 rounded text-sm">
+      <IoBagCheck className='mr-2'/>Pay Now
+      <span></span>
+      </button></Link>
       </div>
     </div>
   );

@@ -48,7 +48,7 @@ const page = ({params}) => {
                 CODECRAFTS
               </h2>
               <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-                codecrafts({params.productName})T-Shirt(XL/Blue)
+                codecrafts({params.productId})T-Shirt(XL/Blue)
               </h1>
               <div className="flex mb-4">
                 <span className="flex items-center">
